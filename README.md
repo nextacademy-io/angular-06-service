@@ -1,5 +1,8 @@
 # Angular Workshop: Clash Service and Clash Card Component
 
+<img width="762" alt="Screenshot 2025-03-16 at 06 10 24" src="https://github.com/user-attachments/assets/efef5b92-9a99-4b48-9949-18e0eb71db66" />
+
+
 In this task, you'll integrate a **clash system** into the application by introducing the `ClashCardComponent`, a `ClashService`, and a `clash.ts` file to define the necessary interfaces. Additionally, you'll modify the `AppComponent` to manage and display multiple clashes dynamically.
 
 ---
