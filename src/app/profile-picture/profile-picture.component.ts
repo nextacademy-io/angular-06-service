@@ -1,4 +1,11 @@
-import { Component, computed, input, output } from '@angular/core';
+import { NgStyle } from '@angular/common';
+import {
+  Component,
+  computed,
+  input,
+  numberAttribute,
+  output,
+} from '@angular/core';
 
 export interface ProfilePictureClickedEvent {
   profileUrl: string;
@@ -10,14 +17,14 @@ export interface ProfilePictureClickedEvent {
   templateUrl: './profile-picture.component.html',
 })
 export class ProfilePictureComponent {
-  diameter = input(100); // In pixels
+  diameter = input(100, { transform: numberAttribute }); // In pixels
   profileUrl = input.required<string>();
 
   profilePictureClicked = output<ProfilePictureClickedEvent>();
 
   pictureStyle = computed(() => ({
-    width: `${this.diameter}px`,
-    height: `${this.diameter}px`,
+    width: `${this.diameter()}px`,
+    height: `${this.diameter()}px`,
   }));
 
   onProfilePictureClicked(): void {
