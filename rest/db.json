@@ -1,0 +1,274 @@
+{
+  "peer": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "gender": "Male",
+      "city": "Berlin",
+      "country": "Germany",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "gender": "Female",
+      "city": "London",
+      "country": "United Kingdom",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "John Smith",
+      "gender": "Male",
+      "city": "New York",
+      "country": "United States",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Jane Smith",
+      "gender": "Female",
+      "city": "Toronto",
+      "country": "Canada",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "gender": "Male",
+      "city": "Paris",
+      "country": "France",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Lee",
+      "gender": "Female",
+      "city": "Sydney",
+      "country": "Australia",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "David Williams",
+      "gender": "Male",
+      "city": "San Francisco",
+      "country": "United States",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Emily Harris",
+      "gender": "Female",
+      "city": "Vancouver",
+      "country": "Canada",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 9,
+      "name": "James Johnson",
+      "gender": "Male",
+      "city": "Los Angeles",
+      "country": "United States",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Brown",
+      "gender": "Female",
+      "city": "Madrid",
+      "country": "Spain",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "William Miller",
+      "gender": "Male",
+      "city": "Chicago",
+      "country": "United States",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Sophia Wilson",
+      "gender": "Female",
+      "city": "Berlin",
+      "country": "Germany",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Ethan Moore",
+      "gender": "Male",
+      "city": "Austin",
+      "country": "United States",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Ava King",
+      "gender": "Female",
+      "city": "London",
+      "country": "United Kingdom",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Alexander Scott",
+      "gender": "Male",
+      "city": "Montreal",
+      "country": "Canada",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Mia Adams",
+      "gender": "Female",
+      "city": "Paris",
+      "country": "France",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Daniel Clark",
+      "gender": "Male",
+      "city": "Barcelona",
+      "country": "Spain",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Isabella Harris",
+      "gender": "Female",
+      "city": "Sydney",
+      "country": "Australia",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Matthew Nelson",
+      "gender": "Male",
+      "city": "San Francisco",
+      "country": "United States",
+      "pictureUrl": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Charlotte Green",
+      "gender": "Female",
+      "city": "Vancouver",
+      "country": "Canada",
+      "pictureUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    }
+  ],
+  "clash": [
+    {
+      "id": 1,
+      "createdByPeer": 1,
+      "title": "Let's meet for a coffee",
+      "description": "I'm new in town and would like to meet new people",
+      "date": "2022-01-01",
+      "time": "10:00",
+      "location": "Starbucks",
+      "address": "Alexanderplatz 1, 10178 Berlin",
+      "participants": [2, 3, 4, 5, 6],
+      "pictureUrl": "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322053/people-having-coffee-together.jpg"
+    },
+    {
+      "id": 2,
+      "createdByPeer": 2,
+      "title": "Lunch at The Grill",
+      "description": "Let's grab some lunch and talk about tech innovations",
+      "date": "2023-02-10",
+      "time": "12:30",
+      "location": "The Grill",
+      "address": "Oxford Street, London",
+      "participants": [1, 3, 6, 7],
+      "pictureUrl": "https://image.lexica.art/full_webp/073ec0b1-b9fd-47bb-a3d2-c3c1c0cc6923"
+    },
+    {
+      "id": 3,
+      "createdByPeer": 3,
+      "title": "Tech Talk Meetup",
+      "description": "Let's discuss the future of AI and machine learning",
+      "date": "2023-03-15",
+      "time": "18:00",
+      "location": "NYC Tech Hub",
+      "address": "5th Avenue, New York, NY",
+      "participants": [2, 4, 5, 8],
+      "pictureUrl": "https://image.lexica.art/full_webp/16b65f74-55c8-40a6-9b81-17d099166324"
+    },
+    {
+      "id": 4,
+      "createdByPeer": 4,
+      "title": "Walk in the Park",
+      "description": "Let's go for a walk in the park and have a friendly chat",
+      "date": "2023-04-05",
+      "time": "09:00",
+      "location": "High Park",
+      "address": "Toronto, ON",
+      "participants": [1, 6, 9, 10],
+      "pictureUrl": "https://image.lexica.art/full_webp/4c4022b5-d58d-4eb8-b629-667c901dae6d"
+    },
+    {
+      "id": 5,
+      "createdByPeer": 5,
+      "title": "Sightseeing in Paris",
+      "description": "Join me for a city tour and explore the best places in Paris",
+      "date": "2023-05-20",
+      "time": "14:00",
+      "location": "Eiffel Tower",
+      "address": "Champ de Mars, 75007 Paris",
+      "participants": [7, 12, 14],
+      "pictureUrl": "https://image.lexica.art/full_webp/051f5fe9-7005-461d-bbbe-6cad5dc0615e"
+    },
+    {
+      "id": 6,
+      "createdByPeer": 6,
+      "title": "Yoga in the Park",
+      "description": "Let's practice some yoga and enjoy the fresh air",
+      "date": "2023-06-10",
+      "time": "07:30",
+      "location": "Royal Botanic Gardens",
+      "address": "Sydney, NSW",
+      "participants": [3, 7, 11, 15],
+      "pictureUrl": "https://image.lexica.art/full_webp/091059b6-b34f-4fd7-a353-ab04fe448e01"
+    },
+    {
+      "id": 7,
+      "createdByPeer": 7,
+      "title": "Startups and Innovation Chat",
+      "description": "Join us to share ideas on the future of startups and innovation",
+      "date": "2023-07-15",
+      "time": "16:00",
+      "location": "Silicon Valley Innovation Center",
+      "address": "San Jose, CA",
+      "participants": [8, 9, 10, 18],
+      "pictureUrl": "https://image.lexica.art/full_webp/2cad99c7-8007-4d72-84c2-7e443b5b807a"
+    },
+    {
+      "id": 8,
+      "createdByPeer": 8,
+      "title": "Beach Party",
+      "description": "Let's enjoy the weekend with a fun beach party!",
+      "date": "2023-08-25",
+      "time": "18:00",
+      "location": "Bondi Beach",
+      "address": "Sydney, NSW",
+      "participants": [1, 2, 5, 6],
+      "pictureUrl": "https://image.lexica.art/full_webp/f2d52c30-888a-4aad-a256-abc1622af590"
+    },
+    {
+      "id": 9,
+      "createdByPeer": 9,
+      "title": "Art Gallery Visit",
+      "description": "Join me for an afternoon of art exploration",
+      "date": "2023-09-05",
+      "time": "15:00",
+      "location": "Los Angeles Art Museum",
+      "address": "Los Angeles, CA",
+      "participants": [3, 12, 13],
+      "pictureUrl": "https://image.lexica.art/full_webp/9a1e71a4-e246-4576-998c-858a0f1422da"
+    }
+  ]
+}

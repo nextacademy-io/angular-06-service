@@ -1,0 +1,13 @@
+<main class="container mx-auto mt-8">
+  <div class="flex justify-center items-center flex-row gap-8">
+    <app-profile-picture
+      [profileUrl]="previousProfileUrl()"
+      (profilePictureClicked)="profilePictureClicked($event)"
+    ></app-profile-picture>
+    <app-profile-picture
+      [profileUrl]="currentProfileUrl()"
+      (profilePictureClicked)="profilePictureClicked($event)"
+    ></app-profile-picture>
+  </div>
+  <router-outlet></router-outlet>
+</main>
